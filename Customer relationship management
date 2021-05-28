@@ -1,0 +1,18 @@
+Process consumer_orders
+1. Start
+2. Prompt Consumer_name
+3. Get Consumer_name 
+4. Prompt ordered_product
+5  Get ordered_product
+6. Set total_orders to zero
+7. IF DOWHILE order_count=>20 Then
+8. Add one to order_count 
+9. Prompt operator for order_number 
+10. Get order_number AND 
+11. Order_number== delivery THEN 
+12. Display "purchased products" to screen 
+13. Print order_number, order_description, delivery_number
+14. ENDDO 
+15. ELSE 
+16. Display "order_nunber invalid" 
+17. END 
