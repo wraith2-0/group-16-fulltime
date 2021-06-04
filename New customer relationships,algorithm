@@ -1,0 +1,17 @@
+Delivery = 0 
+Order_count = 0
+Order_number = 0
+Order_description = 0
+Purchased_product = 0
+Cart = 0 
+Cart Cart + Purchased_product 
+ IF Order_count <=20:
+   Order_number = Order_number + 1 
+   Delivery = Delivery + 1 
+   Order_number == Order_count + 1  
+   IF Order_count == Delivery: 
+      PRINT( Order_number, Delivery, Order_description, cart) 
+   ELSE: 
+      PRINT( "Order number is invalid") 
+  END IF 
+   END IF 
