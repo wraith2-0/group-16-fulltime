@@ -1,0 +1,8 @@
+Start
+Promt for Username and Password
+IF (LoginID == enteredUsername && Password == enteredPassword) THEN
+Display  "Login Successful"
+ELSE
+Display "Login Failed"
+ENDIF
+End
